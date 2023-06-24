@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useStateValue } from '../state/StateProvider';
 
 const Sidebar = () => {
-  const [{user},dispatch] = useStateValue();
+  const [{user}] = useStateValue();
   return (
     
     <div className='sidebar'>

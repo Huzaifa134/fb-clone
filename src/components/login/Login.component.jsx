@@ -6,7 +6,7 @@ import { useStateValue } from "../state/StateProvider";
 import { FacebookAuthProvider } from "firebase/auth";
 
 const Login = () => {
-  const [{},dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
   const signIn =()=>{
     signInWithPopup(auth,provider).then((result)=>{
       // const credential = result.user;

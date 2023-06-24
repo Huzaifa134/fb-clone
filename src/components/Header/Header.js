@@ -13,7 +13,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { useStateValue } from "../state/StateProvider";
 
 const Header = () => {
-  const [{user},dispatch] = useStateValue();
+  const [{user}] = useStateValue();
   return (
     <div className="header">
       <div className="header__left">
