@@ -1,0 +1,44 @@
+.widget {
+  margin-bottom: 30px;
+  margin-right: 10px;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+  flex: 0.33;
+}
+
+.widget__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.widget__bodyOptions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.widget__bodyOptions h4 {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.ml10 p {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+.ml10 svg {
+  /* font-size: 16px; */
+  margin-right: 10px;
+  color: gray;
+}
+
+.widget__headerRight svg {
+  margin: 0 10px;
+}
