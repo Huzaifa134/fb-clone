@@ -22,7 +22,7 @@ const Feed = () => {
 
     // Cleanup function
     return () => unsubscribe();
-  }, []);
+  }, [query_]);
 
   
   console.log(posts)
